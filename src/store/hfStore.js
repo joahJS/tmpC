@@ -9,7 +9,7 @@ export const usehfStore = defineStore('hdFt', () => {
     const navText = ref([
         {
             navSubTexts: '고객만족 품질최고를 향한 집념으로 최선을 다하는',
-            navTexts: '현대오토솔루션',
+            navTexts: '(주)소나무정보기술',
         }
     ])
 
