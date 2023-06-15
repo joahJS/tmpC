@@ -55,7 +55,7 @@ export const useNoticeStore = defineStore('notice', () => {
         },
         {
             index: 3,
-            title: '현대솔루션 공휴일 안내',
+            title: '소나무정보기술 공휴일 안내',
             regMonth: '04',
             regDay: '01',
             year: '2023',
@@ -63,7 +63,7 @@ export const useNoticeStore = defineStore('notice', () => {
             img: '/ceo_sample.jpg',
             text: [
                 { 
-                    texts: `2023 04/01 현대솔루션 워크샵이 진행되는 관계로 모든 업무가 중단될 예정입니다.
+                    texts: `2023 04/01 소나무정보기술 워크샵이 진행되는 관계로 모든 업무가 중단될 예정입니다.
                             일정에 참고바랍니다. 감사합니다.` 
                 },
             ]
