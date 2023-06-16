@@ -2,7 +2,7 @@
     <SubpHero />
         <section id="histBody" class="common-inner">
             <h1 data-common-head-title>연혁</h1>
-            <div id="histTexts">
+            <div id="histTexts" class="ani_down">
                 <div data-hist-line v-for="item in hsGroup">
                     <article data-hist-years>
                         <section>

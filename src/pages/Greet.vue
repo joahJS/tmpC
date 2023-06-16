@@ -2,7 +2,7 @@
     <SubpHero />
     <section class="common-inner">
         <h1 data-common-head-title>인사말</h1>
-        <div id="grtGroup" v-for="item in grtGroup">
+        <div id="grtGroup" v-for="item in grtGroup" class="ani_down">
             <img :src="item.img" alt="ceo-image">
             <div data-right-div>
                 <h1 data-grt-title>{{ item.title }}</h1>
@@ -48,6 +48,7 @@
             object-position: top;
             flex-shrink: 0;
         }
+
     }
 
     [data-grt-title] {

@@ -2,7 +2,7 @@
     <SubpHero />
     <section class="common-inner">
         <h1 data-common-head-title>자료실</h1>
-        <div id="dataTexts">
+        <div id="dataTexts" class="ani_down">
             <div data-dataroom-item v-for="item in dataGroup">
                 <img :src="item.imgSrc" alt="">
                 <div data-dataroom-texts>
@@ -39,11 +39,10 @@
     #dataTexts {
         @apply grid;
 
-        gap: 1rem;
-
+        gap: 1rem;     
         grid-template-columns: repeat(2, 1fr);
     }
-
+   
     [data-dataroom-item] {
         @apply flex relative;
 

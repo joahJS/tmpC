@@ -7,7 +7,7 @@
             </hgroup>
         </div>
         
-        <div id="prodTexts">
+        <div id="prodTexts" class="ani_down">
             <div v-for="item in prodGroup.filter((c) => c.category == getCate)" data-prod-item>
                 <router-link :to="{ name: 'ProdDetail', params: { id: item.index } }">
                     <div data-item-img>
