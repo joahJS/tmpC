@@ -44,6 +44,10 @@
             @apply flex w-full;
 
             gap: 2rem;
+
+            img {
+                width: 4rem;
+            }
         }
 
         section {
@@ -87,11 +91,13 @@
     //mediaquery
     @media screen and (max-width: 767px) {
         footer {
+
+            font-size: var(--fontM);
             > .common-inner {
                 @apply flex-col;
 
                 [data-ft-logo] {
-                    width: fit-content;
+                    margin: 0 auto;
                 }
             }
         }

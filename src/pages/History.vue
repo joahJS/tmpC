@@ -80,7 +80,8 @@
             }
 
             p {
-                font-size: 1.5rem;
+                font-size: 1.75rem;
+                font-weight: bold;
             }
         }
     }
@@ -150,7 +151,7 @@
             @apply flex flex-col;
 
             margin-left: 2.5rem;
-            margin-top: 2.75rem;
+            margin-top: 2rem;
             user-select: none;
 
             li {

@@ -94,6 +94,7 @@
     //mediaquery
     @media (max-width: 767px) {
         body [data-common-head-title] {
-            font-size: var(--fontST);
+            // font-size: var(--fontST);
+            margin: 4rem 0 4rem;
         }
     }

@@ -72,7 +72,7 @@
 
 @media (max-width: 767px) {
   body [data-common-head-title] {
-    font-size: var(--fontST);
+    margin: 4rem 0 4rem;
   }
 }
 /* _variable.scss */

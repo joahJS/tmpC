@@ -55,7 +55,7 @@ export const usehfStore = defineStore('hdFt', () => {
     //Footer
     const ftGroup = ref([
         {
-            ftLogo : '/logo_w.png',
+            ftLogo : '/CI_header_white.svg',
             address: '경남 밀양시 부북면 전사포리 사포산단 1길 90-11',
             tel: '055.000,0000',
             fax: '055.000.0001',

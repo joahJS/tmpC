@@ -38,10 +38,12 @@
         @apply flex;
 
         gap: 4rem;
+        overflow: hidden;
 
         > img {
-            width: 40%;
-            max-height: 40rem;
+            width: 30%;
+            min-width: 20rem;
+            max-height: 30rem;
             object-fit: cover;
             object-position: top;
             flex-shrink: 0;
@@ -57,7 +59,8 @@
 
     [data-grt-subt] {
         color: rgba(var(--main-clr),1);
-        font-size:1.5rem;
+        font-size:1.25rem;
+        margin-top: 1rem;
     }
 
     [data-grt-texts] {
@@ -67,7 +70,7 @@
         gap: 1.5rem;
 
         p {
-            line-height: 1.5;
+            line-height: 1.75;
         }
         
     }
@@ -87,6 +90,7 @@
             &:last-child {
                 font-size: 2rem;
                 margin-right: 2rem;
+                font-weight: bold;
             }
         }
 
@@ -124,7 +128,8 @@
         }
 
         [data-grt-subt] {
-            font-size: 1.25rem;
+            font-size: var(--fontMT);
+            line-height: 1.6;
         }
     }
 

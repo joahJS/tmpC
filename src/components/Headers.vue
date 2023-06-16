@@ -3,7 +3,7 @@
         <div class="common-inner">
             <router-link to="/">
                 <img v-if="useRoute().path == '/'" data-main-logo src="/logo_w.png" alt="메인 로고 이미지">
-                <img v-else data-main-logo src="/logo_s.png" alt="메인 로고 이미지">
+                <img v-else data-main-logo src="/CI_header.svg" alt="메인 로고 이미지">
             </router-link>
             <nav @mouseenter="openStat = true" @mouseleave="openStat = false">
                 <ul v-for="item in navGroup" :class="{'nav-back-transp': useRoute().path == '/' }">                    
@@ -167,7 +167,7 @@
     [data-main-logo] {
         @apply cursor-pointer;
 
-        width: 3rem;
+        width: 2.5rem;
 
     }
 
@@ -191,7 +191,7 @@
         @apply flex w-full;
 
         gap: .5rem;
-        padding: 1rem 0 2rem;
+        padding: 1rem .5rem 2rem;
     }
 
     [data-nav-submenu-section] {
@@ -307,7 +307,6 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-
         }
     }
 
@@ -339,7 +338,19 @@
     }
 
     //mediaquery
-    @media (max-width: 767px) {
+
+    
+    @media (max-width: 1024px) {
+        [data-nav-modal-head] {
+            line-height: 1;
+        }
+
+        [data-nav-modal-list] {
+            gap: 1rem;
+        }
+    }
+
+    @media (max-width: 768px) {
 
         header #navModalBtn {
             right: 0;
