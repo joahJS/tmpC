@@ -44,6 +44,7 @@
     const getCate = getParams.params.category
 
     console.log(getCate)
+    console.log('!!')
 </script>
 
 <style lang="scss" scoped>
