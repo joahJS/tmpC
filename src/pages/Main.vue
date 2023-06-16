@@ -5,7 +5,7 @@
                 <p>고객을 먼저 생각하고, <span class="m-block">고객이 만족하는</span></p>    
             </div>
             <div data-main-catch-bottom>    
-                <h1>HYUNDAI AUTO SOLUTION</h1>
+                <h1>주식회사 소나무정보기술</h1>
                 <div></div>
             </div>
             
