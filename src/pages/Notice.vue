@@ -69,7 +69,7 @@
         @apply grid;
 
         grid-template-columns: repeat(4, 1fr);
-        gap: 3rem;
+        gap: 2rem;
     }
 
     [data-notice-item] {
